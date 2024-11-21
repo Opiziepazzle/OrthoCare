@@ -49,7 +49,7 @@ Clone the repository:
 git clone https://github.com/opiziepazzle/OrthoCare.git
 
 Navigate to the project directory:
-cd orthoCare
+cd OrthoCare
 
 Install dependencies:
 npm install
@@ -57,7 +57,8 @@ npm install
 Set up environment variables (create a .env file in the root directory):
 EMAIL=your-email@gmail.com
 EMAIL_PASSWORD=your-email-password
-JWT_SECRET=your-jwt-secret
+JWT_KEY=your-jwt-secret
+SESSION_SECRET=your-secret
 
 Start the server:
 npm start
